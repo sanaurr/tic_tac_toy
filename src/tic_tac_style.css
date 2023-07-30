@@ -1,0 +1,19 @@
+.board{
+    background-color: rgb(16, 140, 140);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 50vh;
+    min-width: 50vh;
+    flex-direction: column;
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    /* padding: 20px; */
+    height: 94vh;
+
+}
